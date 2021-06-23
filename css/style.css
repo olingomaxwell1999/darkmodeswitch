@@ -1,0 +1,32 @@
+:root {
+ --dark-color: #111;
+ --light-color: #eee;
+}
+
+body.dark-mode {
+ background-color: var(--dark-color);
+ color: var(--light-color);
+
+ a {
+  color: var(--dark-color);
+ }
+
+ button {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+ }
+}
+
+body.light-mode {
+ background-color: var(--light-color);
+ color: var(--dark-color);
+
+ a {
+  color: var(--dark-color);
+ }
+
+ button {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+ }
+}
